@@ -1,0 +1,32 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore logs and coverage reports
+*.log
+coverage/
+.coverage
+htmlcov/
+*.cover
+
+# Ignore test artifacts
+.tox/
+.nox/
+
+# Ignore IDE and editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore dependency cache
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore GitHub Actions cache
+~/.cache/pip
